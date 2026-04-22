@@ -53,7 +53,7 @@ All configuration is via environment variables.
 | `MQTT_USER` | | MQTT username |
 | `MQTT_PASS` | | MQTT password |
 | `DETECTION_THRESHOLD` | `0.20` | Minimum confidence to show a detection |
-| `ALERT_THRESHOLD` | `0.40` | Minimum confidence to trigger the failure alert |
+| `ALERT_THRESHOLD` | `0.30` | Minimum confidence to trigger the failure alert |
 | `JPEG_QUALITY` | `85` | MJPEG output quality |
 
 ## Endpoints

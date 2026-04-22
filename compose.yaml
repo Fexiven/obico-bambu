@@ -6,8 +6,10 @@ services:
     ports:
       - "3333:3333"
     environment:
-      - BAMBU_HOST=YOUR_PRINTER_IP
-      - BAMBU_CODE=YOUR_ACCESS_CODE
-      - BAMBU_SERIAL=YOUR_SERIAL
+      - BAMBU_HOST=<printer-ip>
+      - BAMBU_CODE=<lan-access-code>
+      - BAMBU_SERIAL=<serial-number>
+      - MQTT_HOST=<mqtt-broker>
       - DETECTION_THRESHOLD=0.20
+      - ALERT_THRESHOLD=0.3
       - JPEG_QUALITY=85
