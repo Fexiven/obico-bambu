@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+httpx
+numpy
+opencv-python-headless
+onnxruntime
+Pillow
+python-multipart
+paho-mqtt
