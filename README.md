@@ -4,6 +4,8 @@ Standalone print failure detection for Bambu Lab printers. Connects to your prin
 
 Publishes failure alerts to MQTT with Home Assistant auto-discovery — no cloud, no Obico account needed.
 
+<img width="540" height="304" alt="image" src="https://github.com/user-attachments/assets/453383eb-26e3-4987-b4d9-eedeba75b657" />
+
 ## Quick start
 
 ```bash
