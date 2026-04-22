@@ -1,0 +1,13 @@
+services:
+  bambu-obico:
+    build: .
+    container_name: bambu-obico
+    restart: unless-stopped
+    ports:
+      - "3333:3333"
+    environment:
+      - BAMBU_HOST=192.168.178.188
+      - BAMBU_CODE=38649895
+      - BAMBU_SERIAL=01P00A360300023
+      - DETECTION_THRESHOLD=0.20
+      - JPEG_QUALITY=85
